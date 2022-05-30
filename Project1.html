@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #logo{
+            color:blue;
+        }
+        body {
+            background-color: antiquewhite;
+        }
+        #toplinks {
+            color: black;
+        }
+        input, button {
+            width: 70%;
+            border: 1px solid black;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1 id="logo">Welcome to My Blog</h1>
+      <br>
+      <div id="toplinks">
+        <a href="">About Us</a>
+        &nbsp;&nbsp;&nbsp;
+        <a href="">Contact Us</a>
+        &nbsp;&nbsp;&nbsp;
+        <a href="">Read Blog</a>
+      </div>
+      </nav>
+      <br>
+      <main>
+        <table border="1" width="100%">
+          <tbody>
+            <tr>
+              <td>
+                <!--Article Part-->
+                <article>
+                  <h3>Welcome to HTML</h3>
+                  <small>May 30, 2022</small>
+                  <div>
+                      <video width="25%" controls>
+                        <source src="video1.mp4" type="video/mp4">
+                      </video>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nobis quibusdam totam voluptatem eaque dolores et assumenda ut, incidunt rem.
+                    <br>
+                    <a href="">Read More</a>
+                  </p>
+                  <hr>
+                  <h3>Welcome to CSS</h3>
+                  <small>May 30, 2022</small>
+                  <br>
+                  <img src="image1.png" alt="" type="image/png" width="25%">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nobis quibusdam totam voluptatem eaque dolores et assumenda ut, incidunt rem.
+                    <br>
+                    <a href="">Read More</a>
+                  </p>
+                  <hr>
+                  <h3>Welcome to JavaScript</h3>
+                  <small>May 30, 2022</small>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nobis quibusdam totam voluptatem eaque dolores et assumenda ut, incidunt rem.
+                    <br>
+                    <a href="">Read More</a>
+                  </p>
+                </article>
+                
+              </td>
+              <!--Subscriber Part-->
+              <td width="25%" valign="top">
+                  <aside>
+                <h3></h3>
+              <form method="get" action="">
+                <div>
+                  <label for="firstname">First name</label>
+                  <br>
+                  <input type="text" name="firstname" id="firstname">
+                  <br>
+                  <br>
+                  <label for="lastname">Last name</label>
+                  <br>
+                  <input type="text" name="lasstname" id="lastname" >
+                  <br><br>
+                </div>
+                <div>
+                  <label for="email">Email Address</label>
+                  <br>
+                  <input type="email" name="email" id="email">
+                </div>
+                <br>
+                <!-- <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -->
+            <button type="submit">Subscribe</button>
+              </form>
+              </aside>
+              </td>
+            </tr>    
+          </tbody>
+        </table>
+      </main>
+      <footer>
+        <br><br>
+        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+        <br>
+        &copy; 2023 www.amansoni.com
+      </footer>
+
+</body>
+</html>
